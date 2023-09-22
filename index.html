@@ -69,7 +69,70 @@
                     </ul>
                 </article>
             </section>
-            <section class="main-section"></section>
+            <section class="main-section" id="Getting Started">
+                <header>How to Install Java</header>
+                <article>
+                    <p>For Windows:</p>
+                    <ol>
+                        <li>Download Java</li>
+                        <ul>
+                            <li>
+                                Visit the official Oracle website or adoptopenjdk.net.
+                            </li>
+                            <li>
+                                Click on the "Download" or "Get Java" button for the version you need (e.g., Java 11 or Java 16).
+                            </li>
+                            <li>
+                                Accept the terms and conditions if prompted.
+                            </li>
+                        </ul>
+                        <li>Run the installer</li>
+                    </ol>
+                    <p>For Linux:</p>
+                    <ol>
+                        <li>Open Terminal</li>
+                        <li>Update Package Lists:</li>
+                        <ul>
+                            <li>Run the following command to update your package lists:</li>
+                            <code>sudo apt update</code>
+                        </ul>
+                        <li>Install Java:</li>
+                        <ul>
+                            <li>Run the following command to install OpenJDK 11 (you can change the version
+                                if needed):
+                            </li>
+                            <code>sudo apt install openjdk-11-jdk</code>
+                        </ul>
+                        <li>Verify Installation:</li>
+                        <ul>
+                            <li>Confirm that Java is installed by running:</li>
+                            <code>java -version</code>
+                        </ul>
+                    </ol>
+                    <p>For macOS:</p>
+                    <ol>
+                        <li>Use Terminal</li>
+                        <li>Install Homebrew (if not already installed)</li>
+                        <ul>
+                            <li>If you don't have Homebrew installed, you can install it by running the following
+                                 command:</li>
+                            <code>
+                                /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+                            </code>
+                        </ul>
+                        <li>Install Java:</li>
+                        <ul>
+                            <li>Once Homebrew is installed, you can install Java by running the following command:</li>
+                            <code>
+                                brew install openjdk@11
+                            </code>
+                            <li>You can replace `11` with the version of Java you want to install (e.g., `openjdk@16`
+                                for Java 16).
+                            </li>
+                        </ul>
+                    </ol>
+                </article>
+            </section>
             <section class="main-section"></section>
             <section class="main-section"></section>
             <section class="main-section"></section>
