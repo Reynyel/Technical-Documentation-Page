@@ -30,7 +30,16 @@
                     <a class="nav-link" href="#if-else_statement">if-else statement</a>
                 </li>
                 <li>
+                    <a class="nav-link" href="#switch_statement">switch statement</a>
+                </li>
+                <li>
                     <a class="nav-link" href="#while">while</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#for_loop">for loop</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#arrays">arrays</a>
                 </li>
             </ul>
         </nav>
@@ -201,17 +210,85 @@
                     </code>
                 </article>
             </section>
+            <section class="main-section" id="switch_statement">
+                <header>switch statement</header>
+                <article>
+                    <p>The <code>switch</code> statement selects one of many code blocks to be executed:</p>
+                    <code>
+                        <pre>
+                            switch(expression){
+                                case x:
+                                    // code block
+                                    break;
+                                case y:
+                                    // code block
+                                    break;
+                                default:
+                                    //code block
+                            }
+                        </pre>
+                    </code>
+                </article>
+            </section>
             <section class="main-section" id="while">
                 <header>while</header>
-                <p>The <code>while</code> loop loops through a block of code as long as a specified condition is true.</p>
-                <code>
-                    <pre>
-                        while(condition){
-                            // code block to be executed
-                        }
-                    </pre>
-                </code>
+                <article>
+                    <p>The <code>while</code> loop loops through a block of code as long as a specified condition is true.</p>
+                    <code>
+                        <pre>
+                            while(condition){
+                                // code block to be executed
+                            }
+                        </pre>
+                    </code>
+                </article>
             </section>
+            <section class="main-section" id="for_loop">
+                <header>for loop</header>
+                <article>
+                    <p>You can use the <code>for</code> loop when you know how many times you want to loop through a block of code:</p>
+                    <code>
+                        <pre>
+                            for(statement 1; statement 2; statement 3){
+                                // code block to be executed
+                            }
+                        </pre>
+                    </code>
+                </article>
+            </section>
+            <section class="main-section" id="arrays">
+                <header>Arrays</header>
+                <article>
+                    <p>
+                        Arrays are used to store multiple values in a single variable,
+                        instead of declaring separate variables for each value.
+                    </p>
+                    <p>
+                        To declare an array, define the variable type with square brackets:
+                    </p>
+                    <code>
+                        <pre>
+                            String[] cars;
+                        </pre>
+                    </code>
+                    <p>
+                        To insert values to it, place the values in a comma-separated list, inside curly braces:
+                    </p>
+                    <code>
+                        <pre>
+                            String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+                        </pre>
+                    </code>
+                    <p>
+                        An array for integers would look like this:
+                    </p>
+                    <code>
+                        <pre>
+                            int[] num = {1, 2, 3, 4, 5};
+                        </pre>
+                    </code>
+                </article>
+            </setion>
         </main>
     </body>
 </html>
